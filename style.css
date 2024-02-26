@@ -1,0 +1,70 @@
+body {
+  background-image: url("background.jpg");
+}
+
+.me {
+  width: 130;
+  border-radius: 150px;
+  border: 5px outset #04c0d8b2;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  transition: all 4s;
+}
+
+.me:hover {
+  scale: 1.2;
+  transition: all 1s;
+}
+
+#paragraph {
+  width: 70%;
+  height: 40%;
+  font-size: 25px;
+  font-weight: 500;
+  background-color: rgba(255, 0, 0, 0.5);
+  padding: 10px;
+  border: 5px solid rgb(8, 16, 89);
+  border-radius: 0px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#button-line,
+#final-button-line,
+#info {
+  width: 40%;
+  height: 45px;
+  font-size: 20;
+  font-weight: 400;
+  border: 5px solid darkcyan;
+  background-color: rgb(149, 183, 115);
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 10px;
+  transition: 2s;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+#button-line:hover {
+  background-color: brown;
+  color: aliceblue;
+  transition: 0.5s;
+}
+
+#final-button-line:hover {
+  background-color: brown;
+  color: aliceblue;
+  transition: 0.5s;
+}
